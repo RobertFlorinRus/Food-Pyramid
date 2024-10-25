@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Food Diary</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="Pyramid">
+    <div class="shape triangle ">
+        <div class="controls" >
+            <span class="control-btn" onclick="decreaseItemCount('fats')">-</span>
+             <span id="fats-count">0</span>
+                <span class="control-btn" onclick="increaseItemCount('fats')">+</span>
+        </div>
+        1
+      </div>
+  
+      <div class="shape trapezoid1 ">
+        <div class="controls">
+            <span class="control-btn" onclick="decreaseItemCount('oils')">-</span>
+            <span id="oils-count">0</span>
+            <span class="control-btn" onclick="increaseItemCount('oils')">+</span>
+        </div>
+        2
+      </div>
+
+        <div class="shape trapezoid2">
+        <div class="controls">
+            <span class="control-btn" onclick="decreaseItemCount('meat')">-</span>
+            <span id="meat-count">0</span>
+            <span class="control-btn" onclick="increaseItemCount('meat')">+</span>
+        </div>
+        3
+      </div>
+  
+        <div class="shape trapezoid3">
+          <div class="controls">
+            <span class="control-btn" onclick="decreaseItemCount('dairy')">-</span>
+            <span id="dairy-count">0</span>
+            <span class="control-btn" onclick="increaseItemCount('dairy')">+</span>
+        </div>
+        4
+      </div>
+  
+        <div class="shape trapezoid4">
+          <div class="controls">
+            <span class="control-btn" onclick="decreaseItemCount('grains')">-</span>
+            <span id="grains-count">0</span>
+            <span class="control-btn" onclick="increaseItemCount('grains')">+</span>
+        </div>
+        5
+      </div>
+  
+        <div class="shape trapezoid5">
+          <div class="controls">
+            <span class="control-btn" onclick="decreaseItemCount('vegetables')">-</span>
+            <span id="vegetables-count">0</span>
+            <span class="control-btn" onclick="increaseItemCount('vegetables')">+</span>
+        </div>
+        6
+      </div>
+      </div>
+
+      <h1 id="pyramid-name">My Pyramid</h1>
+    <input type="date" id="date-input">
+<script src="script.js"></script>
+</body>
+</html>

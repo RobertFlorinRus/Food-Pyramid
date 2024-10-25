@@ -1,0 +1,162 @@
+body
+{
+    background-color: rgba(173, 110, 170, 0.418);
+}
+.shape{
+    margin: auto;
+    position: relative;
+}
+.controls{
+  display: flex;
+   margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding-top: 100px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    align-items: center;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 60px solid #ff0000;
+    margin-bottom:10px;
+}
+
+.trapezoid1 {
+    border-bottom: 75px solid #ff8827;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    margin-bottom:10px;
+    height: 0;
+    width: 95px;
+    align-items: center;
+}
+
+.trapezoid2 {
+    border-bottom: 100px solid #f3f30a;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    height: 0;
+    width: 220px;
+    align-items: center;
+}
+
+.trapezoid3 {
+    border-bottom: 115px solid rgb(0, 190, 228);
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    height: 0;
+    width: 380px;
+    align-items: center;
+}
+
+.trapezoid4 {
+    border-bottom: 130px solid #806305;
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+    height: 0;
+    width: 560px;
+    align-items: center;
+}
+
+.trapezoid5 {
+    border-bottom: 145px solid rgb(59, 172, 11);
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    height: 0;
+    width: 780px;
+}
+
+.controls {
+    display: none;
+}
+.trapezoid1:hover .controls {
+    display: flex;
+}
+.trapezoid2:hover .controls {
+    display: flex;
+}
+.trapezoid3:hover .controls {
+    display: flex;
+}
+.trapezoid4:hover .controls {
+    display: flex;
+}
+.trapezoid5:hover .controls {
+    display: flex;
+}
+.triangle:hover .controls {
+    display: flex;
+}
+.control-btn {
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(143, 143, 143);
+    color: #fff;
+}
+#vegetables-count {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    border: 1px solid #af2222;
+    background-color:rgb(144, 225, 228);
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+#grains-count {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    border: 1px solid #af2222;
+    background-color:rgb(144, 225, 228);
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+#dairy-count {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    border: 1px solid #af2222;
+    background-color:rgb(144, 225, 228);
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+#meat-count {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    border: 1px solid #af2222;
+    background-color:rgb(144, 225, 228);
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+#oils-count {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    border: 1px solid #af2222;
+    background-color:rgb(144, 225, 228);
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+#fats-count {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    border: 1px solid #af2222;
+    background-color:rgb(144, 225, 228);
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+/*
